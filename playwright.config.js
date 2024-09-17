@@ -14,14 +14,6 @@ const config = {
       },
     ],
   ],
-  projects: [
-    {
-      name: "chromium",
-      use: {
-        ...devices["Desktop Chrome"],
-      },
-    },
-  ],
   outputDir: "test-results/",
 };
 
